@@ -1,0 +1,9 @@
+._background{
+    background-color: var(--bg-white) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    border: var(--border) !important;
+    border-radius: var(--br) !important;
+    box-shadow: var(--shadow) !important;
+    overflow: hidden !important;
+}

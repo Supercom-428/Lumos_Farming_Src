@@ -1,0 +1,43 @@
+.text{
+    color: white !important;
+}
+.background{
+    background-color: #313633 !important;
+    margin-top: 10px !important;
+    margin-bottom: 25px !important;
+}
+.btn{
+    background-color:  #21C797 !important;
+    color: white !important;
+}
+.containerModal{
+    /* padding: 24px !important; */
+    background-color: var(--bg-white) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    border: var(--border) !important;
+    border-radius: var(--br) !important;
+    box-shadow: var(--shadow) !important;
+    overflow: hidden !important;
+    /* gap: md !important; */
+}
+
+.opacity {
+    width: 100%!important;
+    height: 100%!important;
+    position: fixed!important;
+    bottom: 0!important;
+    left: 0!important;
+    right: 0!important;
+    background-color: rgba(36, 36, 36, 0.74)!important;
+    z-index: 30;
+}
+
+.box-modal {
+    max-width: 420px;
+    margin: 0 auto!important;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+}
